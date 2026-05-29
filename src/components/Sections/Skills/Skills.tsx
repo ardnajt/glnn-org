@@ -17,9 +17,9 @@ export default function Skills() {
 				transition={{ ease: "easeOut", duration: 1 }}
 				className="grid grid-rows-3 grid-cols-1 lg:grid-cols-3 lg:grid-rows-1 text-center"
 			>
-				<SkillsArticle title="Front End" logos={["css3", "html5", "javascript", "react", "tailwindcss", "typescript", "vite"]} />
-				<SkillsArticle title="Back End" logos={["mongodb", "mysql", "nestjs", "nodedotjs", "postgresql", "sequelize", "sqlite"]} />
-				<SkillsArticle title="Tools" logos={["figma", "git", "npm", "postman", "yarn"]} />
+				<SkillsArticle title="Front End" logos={["css", "html5", "javascript", "react", "svelte", "tailwindcss", "typescript", "vite", "kotlin"]} />
+				<SkillsArticle title="Back End" logos={["mongodb", "mysql", "nestjs", "next.js", "nodedotjs", "postgresql", "sequelize", "sqlite", "php"]} />
+				<SkillsArticle title="Tools" logos={["figma", "git", "npm", "postman", "github"]} />
 			</motion.div>
 		</SectionWrapper>
 	)

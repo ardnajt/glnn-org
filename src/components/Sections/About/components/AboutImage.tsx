@@ -28,7 +28,7 @@ export default function AboutImage({ footer }: AboutImageProps) {
 
 	return (
 		<aside className="hidden lg:block col-span-1 ml-auto duration-1000 ease-out cursor-pointer" ref={ref}>
-			<a href="https://www.fiverr.com" target="_blank">
+			<a href="https://www.fiverr.com/glenn_mt" target="_blank">
 				<motion.div className="text-center" initial={{ scale: 0.9 }} whileTap={{ scale: 0.85 }} transition={{ ease: "easeOut", duration: 0.6 }}>
 					<img src="images/fiverr.png" className="rounded-lg shadow-2xl" />
 					<footer className="mt-4"> {footer} </footer>

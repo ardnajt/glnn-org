@@ -11,7 +11,7 @@ export default function Projects() {
 			<SectionHeader>Projects</SectionHeader>
 			<div className="grid grid-cols-1 lg:grid-cols-2">
 				<ProjectCard>
-					<ProjectCardHeader url="https://github.com/ausgore/glnn-org" image="images/glnn.png"> glnn.dev </ProjectCardHeader>
+					<ProjectCardHeader url="https://github.com/ardnajt/glnn-org" image="images/glnn.png"> glnn.dev </ProjectCardHeader>
 					<ProjectCardArticle author="React - Tailwind - Framer Motion - Typescript">
 						You're here right now! This website showcases my skills as a programmer and the projects that I've worked on.
 					</ProjectCardArticle>
@@ -28,7 +28,7 @@ export default function Projects() {
 						Dain's is an online food delivery platform. I was responsible for the theme design, home page, menu interface, and checkout process. Be sure to download from the remake branch instead of main.
 					</ProjectCardArticle>
 				</ProjectCard>
-				<ProjectCard>
+				{/* <ProjectCard>
 					<ProjectCardHeader url="https://github.com/callmeglenn/ITApp-Project" image="images/bob.png"> Bob </ProjectCardHeader>
 					<ProjectCardArticle author="Scratch">
 						A nifty 3D platformer I've created using Scratch, a language meant for 2D. Game engine and level design written by me. Download 3DEngineProject_13.sb3 and run it on the Scratch website to play.
@@ -39,7 +39,7 @@ export default function Projects() {
 					<ProjectCardArticle author="HTML5 - CSS3">
 						A cozy online corner I've crafted all on my own for a busting cat café. This site lets you peek at our adorable feline friends and even shop for cat goodies.
 					</ProjectCardArticle>
-				</ProjectCard>
+				</ProjectCard> */}
 			</div>
 		</SectionWrapper>
 	)
