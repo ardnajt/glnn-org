@@ -23,9 +23,15 @@ export default function Projects() {
 					</ProjectCardArticle>
 				</ProjectCard>
 				<ProjectCard>
-					<ProjectCardHeader url="https://github.com/Kanahora/Dains" image="images/dains.png"> Dain's </ProjectCardHeader>
-					<ProjectCardArticle author="Flask - Python">
-						Dain's is an online food delivery platform. I was responsible for the theme design, home page, menu interface, and checkout process. Be sure to download from the remake branch instead of main.
+					<ProjectCardHeader url="https://github.com/ardnajt/entrelah-client" image="images/entrelah.png"> Entrelah </ProjectCardHeader>
+					<ProjectCardArticle author="React - NestJS - PostgreSQL">
+						A freelance marketplace platform where users can showcase their services, connect with clients, and manage gig postings. Includes features such as gig listing, creating orders, and incorporating Stripe for secure payment processing.
+					</ProjectCardArticle>
+				</ProjectCard>
+				<ProjectCard>
+					<ProjectCardHeader url="https://github.com/ardnajt/duobode-frontend" image="images/duobode.png"> Duobode </ProjectCardHeader>
+					<ProjectCardArticle author="Svelte - Fastify - SQLite">
+						A property rental platform where tenants can easily find and connect with landlords, while landlords can efficiently manage their properties, listings, and tenants through a centralized system. More features were incorporated such as secure email/phone OTP authentication, CAPTCHA protection and Google authentication.
 					</ProjectCardArticle>
 				</ProjectCard>
 				{/* <ProjectCard>
