@@ -34,6 +34,12 @@ export default function Projects() {
 						A property rental platform where tenants can easily find and connect with landlords, while landlords can efficiently manage their properties, listings, and tenants through a centralized system. More features were incorporated such as secure email/phone OTP authentication, CAPTCHA protection and Google authentication.
 					</ProjectCardArticle>
 				</ProjectCard>
+				<ProjectCard>
+					<ProjectCardHeader image="images/akiko.jpeg"> Akiko AI </ProjectCardHeader>
+					<ProjectCardArticle author="WebXR/Svelte - Fastify - OpenAI/Ollama API Integration">
+						An AI-powered communication training platform designed to help teachers practise and improve how they communicate with students. It provides feedback, suggested responses, and explanations to help teachers improve their communication skills.
+					</ProjectCardArticle>
+				</ProjectCard>
 				{/* <ProjectCard>
 					<ProjectCardHeader url="https://github.com/callmeglenn/ITApp-Project" image="images/bob.png"> Bob </ProjectCardHeader>
 					<ProjectCardArticle author="Scratch">
